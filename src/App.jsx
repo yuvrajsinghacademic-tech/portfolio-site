@@ -1,3 +1,4 @@
+import handshakeLogo from "./assets/handshake-logo.png"; 
 export default function PortfolioSite() {
 
   const links = {
@@ -97,15 +98,15 @@ export default function PortfolioSite() {
       );
     }
 
-    if (type === "handshake") {
-      return (
-        <svg viewBox="0 0 64 64" className="h-8 w-8" aria-hidden="true">
-          <path d="M18 18h14l6 6-10 10c-3 3-8 3-11 0l-5-5c-3-3-3-8 0-11l6-6Z" fill="#8b5cf6" opacity="0.95" />
-          <path d="M46 18H32l-6 6 10 10c3 3 8 3 11 0l5-5c3-3 3-8 0-11l-6-6Z" fill="#ec4899" opacity="0.95" />
-          <path d="M24 36l6 6c1.6 1.6 4.4 1.6 6 0l4-4" fill="none" stroke="#ffffff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      );
-    }
+   if (type === "handshake") {
+  return (
+    <img
+      src={handshakeLogo}
+      alt="Handshake logo"
+      className="h-8 w-8 object-contain"
+    />
+  );
+}
 
     return (
       <svg viewBox="0 0 64 64" className="h-8 w-8" aria-hidden="true">
