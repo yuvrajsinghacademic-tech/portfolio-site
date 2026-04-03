@@ -2,7 +2,7 @@ export default function PortfolioSite() {
 
   const links = {
     email: "mailto:yuvrajsinghacademic@gmail.com",
-    linkedin: "https://npm run buildwww.linkedin.com/in/yuvrajsingh04",
+    linkedin: "https://www.linkedin.com/in/yuvrajsingh04/",
     handshake: "https://app.joinhandshake.com/profiles/singhyuvraj",
     resume: "/Yuvraj-Singh-Resume.pdf",
     damsLive: "https://dams-ai.vercel.app/",
