@@ -8,9 +8,26 @@ export default function PortfolioSite() {
     resume: "/Yuvraj-Singh-Resume.pdf",
     damsLive: "https://dams-ai.vercel.app/",
     damsGitHub: "https://github.com/yuvrajsinghacademic-tech/dams-ai",
+    galiLive: "https://galimagazine.com/",
+    galiGitHub: "https://github.com/yuvrajsinghacademic-tech/gali-magazine",
   };
 
   const projects = [
+   {
+      title: "GALI Magazine",
+      subtitle: "AI-Powered Fashion Tool",
+      description: `"Guh-lee" (ਗਲੀ). An AI-powered fashion tool that analyzes outfit images, identifies visible clothing items, and presents clean product-style breakdowns through a polished interactive interface.`,
+      stack: ["Codex", "Vite", "JavaScript", "React", "AI Image Search", "Supabase", "Vercel"],
+      live: links.galiLive,
+      github: links.galiGitHub,
+      status: "Live",
+      highlights: [
+        "Built a fashion-focused image upload experience designed to analyze outfits and generate structured clothing breakdowns.",
+"Designed clean front-end sections for item categories, estimated styling details, and product-style visual presentation.", 
+"Developed the project around AI-assisted fashion discovery, combining image analysis, user interaction, and editorial-style design.",
+      ],
+    },
+    
     {
       title: "DAMS AI",
       subtitle: "AI-Powered Math Calculator Web App",
@@ -158,6 +175,15 @@ export default function PortfolioSite() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
+             <a
+                href={links.galiLive}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl border border-white/15 bg-white px-5 py-3 text-sm font-medium text-black transition hover:scale-[1.02]"
+              >
+                View GALI
+              </a>
+             
               <a
                 href={links.damsLive}
                 target="_blank"
